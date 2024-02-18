@@ -1,0 +1,56 @@
+#pagina
+{
+    background-image: url(Fondo.jpg);
+}
+h1,h2
+{
+    color:purple;
+}
+h3,h4
+{
+    color:saddlebrown;
+}
+h5,li,p
+{
+    color:saddlebrown;
+}
+#Presentacion
+{
+    height:20%;
+	width:94%;
+	margin-left:350px;
+}
+.contenedor
+{
+
+	display: flex;
+    border-top:1px solid #80BC3A;
+    border-bottom:1px solid #80BC3A;
+
+}
+
+.item
+{
+    margin:0 auto;
+    height:20%;
+	width:94%;
+	margin-left:0px;
+    margin-bottom: 20px;
+}
+
+h5
+{   position:absolute;
+    margin:0%  auto;
+	height:20%;
+	width:94%;
+	margin-left:350px;
+    margin-bottom:50px;
+    margin-top: 20px;
+}
+#imagen
+{
+height:10%;
+width:10%;
+margin-left: 100px;
+margin-top: 350;
+}
