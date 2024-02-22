@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <script>
+      //Para mayor legibilidad ,se estableció que los números a ingresar sean mayores a cero.
+
+     var valor=0;  //variable generica para ir llenando el arreglo.
+     var  arreglo=[0,0,0,0,0];  //Arreglo inicializado en cero.
+     var i=0;
+     var aux=0; //valor auxiliar para comparar.
+     var j=0;
+
+         //Ciclo for para ir llenando el arreglo.
+
+           for (i=0;i<5;i++)
+           {
+             valor=parseInt(prompt('Ingrese un número mayor o igual a cero', ''));
+
+             //Verifica si el valor ingresado es válido.
+
+               while ((Number.isNaN(valor))||(valor<0))
+                 {
+                      valor=parseInt(prompt('Por favor Ingrese un número mayor o igual a cero', ''));
+                 }
+             //Asigno el contenido de la variable valor en la posición i del arreglo.
+
+             arreglo[i]=valor;
+           }
+
+     //Ciclo  while que realiza la comparación entre un valor que se inicializa en cero llamado aux
+     //y este se va actualizando a medida que el valor del arreglo en la posición j es mayor que aux.
+
+           while (j<arreglo.length)
+             {
+                if (arreglo[j]>aux)
+                   {
+                      aux=arreglo[j];
+                   }
+                j++;
+             }
+      //Imprime cuál es el mayor valor de la colección.
+
+     document.write(`El mayor valor de la colección de números es: ${aux}`);
+     console.log(`El mayor valor de la colección de números es: ${aux}`);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+<script>
+     //Para mayor legibilidad ,se estableció que los números a ingresar sean mayores a cero.
+
+     const valor=parseInt(prompt('Ingrese un número entre 0 y 100000:', ''));
+
+     //if que verifica las condiciones que puede tener la variable valor
+     // y devuelve pie,bicicleta,colectivo,auto o avión según corresponda.
+     //Se agrega el caso de que valor no sea un número o si no es positivo.
+
+     if (Number.isNaN(valor))
+         {
+            document.write('No ingreso un número');
+            console.log('No ingreso un número');
+         }
+         else if (valor >=0 && valor <=1000)
+                  {
+                    document.write('Pie');
+                    console.log('Pie');
+                  }
+                  else if (valor >1000 && valor <=10000)
+                          {
+                            document.write('Bicicleta');
+                            console.log('Bicicleta');
+                          }
+                          else  if (valor >10000 && valor <=30000)
+                                     {
+                                        document.write('Colectivo');
+                                        console.log('Colectivo');
+                                     }
+                                     else if(valor >30000 && valor <=100000)
+                                             {
+                                                document.write('Auto');
+                                                console.log('Auto');
+                                             }
+                                              else if(valor >100000)
+                                                     {
+                                                        document.write('Avión');
+                                                        console.log('Avión');
+                                                     }
+                                                     else
+                                                          {
+                                                            document.write('No ingreso un valor positivo');
+                                                            console.log('No ingreso un valor positivo');
+                                                          }
+
+</script>
+
+</body>
+</html>
