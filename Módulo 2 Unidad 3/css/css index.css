@@ -1,0 +1,97 @@
+.nav-item,
+div,
+a {
+    font-family: 'Explora';
+    font-size: 30px;
+
+
+}
+
+.navbar,
+.navbar-brand,
+.nav-item,
+#barra,
+#pagina {
+    background-color: #faf8f8;
+}
+
+#lista_valoracion,
+.list-group {
+    border: 14px ridge #bdbab8;
+    background: #ffffff;
+}
+
+
+#pie {
+    background-color: #c2b9b9;
+
+}
+
+
+#nove_val {
+    background-color: #e3e3e3;
+
+}
+
+
+#servicios {
+    background-color: #d4d4d4;
+}
+
+p,
+h5,
+h1,
+h2,
+label {
+    font-family: 'Ms Madi';
+    font-size: 30px;
+    font-style: 'bold';
+}
+
+h4 {
+    font-family: 'Ms Madi';
+    font-size: 20px;
+    font-style: 'bold';
+}
+
+h6,
+button {
+    font-family: 'Ms Madi';
+    font-size: 200px;
+    font-style: 'bold';
+}
+
+h4 {
+    font-family: 'Ms Madi';
+    font-size: 30px;
+    font-style: 'bold';
+}
+
+.hero {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: black;
+}
+
+
+#val .card-body,
+#val .card-body ul li,
+#nove_val .list-group a {
+    background-color: #f5e7e7;
+
+}
+
+
+.modal-body {
+    background-color: hsl(0, 100%, 98%);
+}
+
+.modal-header {
+    background-color: #f2e9e9;
+}
+
+#nove_val .list-group a h4:hover {
+    color: #cfbfbf;
+}
